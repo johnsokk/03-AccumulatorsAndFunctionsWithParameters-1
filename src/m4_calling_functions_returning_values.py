@@ -153,7 +153,11 @@ def run_test_digits_in_cube():
     print('Testing the   digits_in_cube   function:')
     print('-----------------------------------------------------')
 
-
+    # Test 1
+    expected = 8
+    answer = digits_in_cube(5)
+    print('Test 1 expected:', expected)
+    print('        actual:', answer)
 
 
 def digits_in_cube(n):
@@ -165,6 +169,8 @@ def digits_in_cube(n):
       If the integer (n) is 5    (so n cubed is 125),
       this function returns (1 + 2 + 5), which is 8.
     """
+    n**3
+
     # -------------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
     #   Note that you should write its TEST function first (above).
